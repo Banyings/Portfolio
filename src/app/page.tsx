@@ -1,8 +1,9 @@
+
 import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 py-48 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 py-4 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto space-y-12">
         {/* Hero Section with Image */}
         <div className="flex flex-col md:flex-row items-center gap-8">

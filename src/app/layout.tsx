@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Navbar from "./Navbar/page";
 import "./globals.css";
 
 
@@ -26,11 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Navbar />
+        <main className="pt-16"> {/* Add padding-top to prevent content from being hidden under navbar */}
+          {children}
+        </main>
       </body>
     </html>
   );
