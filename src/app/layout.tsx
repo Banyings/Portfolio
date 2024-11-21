@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Navbar from "./Navbar/page";
+import Footer from "./Footer/page"; // Add this import
 import "./globals.css";
-
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -28,12 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <Navbar />
-        <main className="pt-16"> {/* Add padding-top to prevent content from being hidden under navbar */}
+        <main className="pt-16 flex-grow"> {/* Added flex-grow to push footer to bottom */}
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
