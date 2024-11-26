@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="relative w-48 h-48  overflow-hidden flex-shrink-0">
             <Image
-              src="/Hyppolite.png"
+              src="./Hyppolite.png"
               alt="Image of Hyppolite"
               fill
               className="object-cover"
