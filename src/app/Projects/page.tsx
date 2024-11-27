@@ -9,13 +9,13 @@ export default function ProjectsPage() {
     {
       name: 'BanyingsBarber',
       description: 'A barber booking app with an interactive user interface and real-time booking features.',
-      image: '/quarkus.png', // Make sure this path is relative to the public directory
+      image: './quarkus.png', // Make sure this path is relative to the public directory
       link: 'https://gs6nf2xng0.execute-api.us-east-1.amazonaws.com/',
     },
     {
       name: 'My Porfolio',
       description: 'A frontend development project focused on building a responsive Navbar and page navigation.',
-      image: '/nextjs.png', // Make sure this path is relative to the public directory
+      image: './nextjs.png', // Make sure this path is relative to the public directory
       link: 'https://gs6nf2xng0.execute-api.us-east-1.amazonaws.com/',
     },
   ];

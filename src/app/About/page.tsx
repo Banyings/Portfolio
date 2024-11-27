@@ -3,6 +3,7 @@ export default function About() {
     const skills = [
       { name: 'HTML', image: './html.png', percentage: '95%' },
       { name: 'CSS', image: './css.png', percentage: '90%' },
+      // { name: 'JavaScript', image: './javascript.png', percentage: '90%' },
       { name: 'JavaScript', image: './javascript.png', percentage: '90%' },
       { name: 'Java', image: './java.png', percentage: '90%' },
       { name: 'Python', image: './python.png', percentage: '90%' },

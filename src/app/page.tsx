@@ -38,7 +38,7 @@ export default function Home() {
             </p>
             <div className="relative w-12 h-12">
               <Image
-                src="/email.png"
+                src="./email.png"
                 alt="gmail-symbole"
                 fill
                 className="object-contain"
