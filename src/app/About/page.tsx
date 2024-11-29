@@ -80,7 +80,7 @@ export default function About() {
           </p>
           <div className="flex gap-8">
             <a 
-              href="https://www.coursera.org/my-learning?myLearningTab=COMPLETED" 
+              href="https://www.coursera.org/" 
               target="_blank" 
               className="text-blue-500 hover:text-blue-700 font-semibold"
             >
@@ -92,6 +92,20 @@ export default function About() {
               className="text-blue-500 hover:text-blue-700 font-semibold"
             >
               Udemy
+            </a>
+            <a 
+              href="https://www.sololearn.com/en/learn" 
+              target="_blank" 
+              className="text-blue-500 hover:text-blue-700 font-semibold"
+            >
+              Sololearn
+            </a>
+            <a 
+              href="https://www.sololearn.com/en/learn" 
+              target="_blank" 
+              className="text-blue-500 hover:text-blue-700 font-semibold"
+            >
+             LinkedIn
             </a>
           </div>
         </div>

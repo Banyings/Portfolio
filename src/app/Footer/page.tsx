@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="flex flex-col items-center space-y-6">
                     <nav className="flex flex-wrap items-center justify-center gap-6">
                         <Link
-                            href="https://github.com/yourusername"
+                            href="https://github.com/Banyings?tab=repositories&utm_campaign=cta&utm_medium=topnav&utm_source=blog"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-200 flex items-center gap-2"
@@ -23,7 +23,7 @@ const Footer = () => {
                         </Link>
 
                         <Link
-                            href="https://linkedin.com/in/yourusernam"
+                            href="https://www.linkedin.com/in/hyppolite-banyingela-11369724a/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-200 flex items-center gap-2"
@@ -33,7 +33,7 @@ const Footer = () => {
                         </Link>
 
                         <Link
-                            href="https://twitter.com/yourusername"
+                            href="https://x.com/home"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-200 flex items-center gap-2"
