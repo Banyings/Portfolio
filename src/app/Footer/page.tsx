@@ -23,7 +23,7 @@ const Footer = () => {
                         </Link>
 
                         <Link
-                            href="https://linkedin.com/in/yourusername"
+                            href="https://linkedin.com/in/yourusernam"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-200 flex items-center gap-2"
@@ -53,7 +53,7 @@ const Footer = () => {
                         </Link>
 
                         <Link
-                            href="/contact"
+                            href="/Contact"
                             className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-200 flex items-center gap-2"
                         >
                             <Mail className="w-5 h-5" />

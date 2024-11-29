@@ -13,32 +13,24 @@ export default function About() {
       { name: 'SpringBoot', image: './springboot.png', percentage: '85%' },
     ];
   
-    const socialLinks = [
-      { platform: 'X (Twitter)', url: '#' },
-      { platform: 'GitHub', url: '#' },
-      { platform: 'Instagram', url: '#' }
-    ];
-  
     return (
-      <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto space-y-12">
+      <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 ">
+        <div className="max-w-6xl mx-auto space-y-12 ">
           {/* Introduction Card */}
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <h1 className="text-3xl font-bold text-gray-900 mb-6">
+          <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+            <h1 className="text-3xl font-bold text-gray-900 mb-6 border border-gray-200">
               I am Hyppolite Banyingela. I live in Salt Lake City Utah, where I develop the future.
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
             I’m currently pursuing an Associate degree and a Certificate in Software Engineering at Ensign College, with a focus on [specific areas of interest like software development, data analysis, etc.]. 
             Throughout my studies, I’ve gained solid foundational knowledge in [mention relevant subjects, like web development, algorithms, databases, etc.], and I have actively applied these concepts in various projects, 
-            including [mention specific projects, like BanyingsBarber or My Portfolio].
-
-I’m now seeking an internship where I can further hone my skills and contribute to real-world projects in a collaborative environment. I’m eager to learn from experienced professionals, expand my technical expertise, and grow both as a developer and as a team player. With a strong foundation in [mention any specific tools or technologies like React, JavaScript, Python, etc.], I am excited to take the next step in my career and bring value to a forward-thinking organization
+            including [mention specific projects, like BanyingsBarber or My Portfolio].I’m now seeking an internship where I can further hone my skills and contribute to real-world projects in a collaborative environment. I’m eager to learn from experienced professionals, expand my technical expertise, and grow both as a developer and as a team player. With a strong foundation in [mention any specific tools or technologies like React, JavaScript, Python, etc.], I am excited to take the next step in my career and bring value to a forward-thinking organization
             </p>
           </div>
   
           {/* Skills Card */}
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Skills</h2>
+          <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 border border-gray-200">Skills</h2>
             <p className="text-gray-600 mb-8">
               My journey in frontend development has equipped me with a robust set of skills, 
               honed through hands-on experience with cutting-edge frameworks such as React and Next.js. 
@@ -60,8 +52,8 @@ I’m now seeking an internship where I can further hone my skills and contribut
           </div>
   
           {/* Education Card */}
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Education</h2>
+          <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 border border-gray-200">Education</h2>
             <div className="flex flex-col md:flex-row items-center gap-8">
               <img
                 src="./ensign.png"
@@ -77,22 +69,6 @@ I’m now seeking an internship where I can further hone my skills and contribut
                 <h3 className="text-lg font-semibold text-gray-900">Associate of Science 2023-2025</h3>
                 <h3 className="text-lg font-semibold text-gray-900">Certificate of Software Engineering 2023-2025</h3>
               </div>
-            </div>
-          </div>
-  
-          {/* Social Links Card */}
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Follow Me</h2>
-            <div className="flex justify-center gap-8">
-              {socialLinks.map((link) => (
-                <a
-                  key={link.platform}
-                  href={link.url}
-                  className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
-                >
-                  {link.platform}
-                </a>
-              ))}
             </div>
           </div>
         </div>

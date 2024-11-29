@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* Subscribe Section */}
-        <div className="bg-white rounded-lg shadow-lg p-8">
+        <div className="bg-white rounded-lg shadow-lg p-8 border border-gray-200">
           <div className="flex items-center gap-4 mb-6">
             <p className="text-xl font-semibold text-gray-800">
               Stay Updated when I push new codes

@@ -5,7 +5,7 @@ const Uses = () => {
   const sections = [
     {
       title: "Workstation",
-      icon: <Laptop className="w-6 h-6" />,
+      icon: <Laptop className="w-6 h-6 " />,
       description: "My workspace is thoughtfully equipped with powerful hardware that enables me to handle complex development tasks and multitask efficiently. The combination of the MacBook Air's portability and the HP Monitor's expansive display creates an ideal setup for both mobile and stationary work.",
       items: [
         {
@@ -86,7 +86,7 @@ const Uses = () => {
 
         <div className="space-y-12">
           {sections.map((section, index) => (
-            <section key={index} className="space-y-6">
+            <section key={index} className="space-y-6 ">
               <div className="flex items-center gap-3 mb-4">
                 {section.icon}
                 <h2 className="text-2xl font-semibold">{section.title}</h2>
@@ -96,9 +96,9 @@ const Uses = () => {
                 {section.description}
               </p>
 
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6 ">
                 {section.items.map((item, itemIndex) => (
-                  <div key={itemIndex} className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                  <div key={itemIndex} className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
                     <div className="p-6">
                       <h3 className="text-xl font-semibold mb-4">{item.name}</h3>
                       <p className="text-gray-600">{item.description}</p>
