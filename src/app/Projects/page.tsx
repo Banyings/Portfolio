@@ -9,7 +9,7 @@ export default function ProjectsPage() {
     {
       name: 'BanyingsBarber',
       description: 'A barber booking app with an interactive user interface and real-time booking features.',
-      image: './quarkus.png', // Make sure this path is relative to the public directory
+      image: './nextjs.png', // Make sure this path is relative to the public directory
       link: 'https://banyings.github.io/BanyingsBarber/',
     },
     {
@@ -27,8 +27,8 @@ export default function ProjectsPage() {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8 text-center">Things I have made trying to put my dent in the universe.</h1>
+    <div className="container mx-auto px-4 py-8 max-w-4xl">
+      <h1 className="text-3xl font-bold mb-8 text-center ">Things I have made trying to put my dent in the universe.</h1>
       <p className="text-base mb-8">
                 Here are some of the projects I have worked on and am still working on. I try to come up with new ideas to improve every day. I am eager to learn more from others and move forward. I am in love with software engineering, and I believe that the future is brighter with technology. Please visit my projects and give me some constructive feedback so I can improve, since there is no perfection in humans.
                 </p>
@@ -36,7 +36,7 @@ export default function ProjectsPage() {
         {projects.map((project, index) => (
           <div 
             key={index} 
-            className="border border-gray-200 p-6 rounded-lg max-w-sm w-full md:w-[300px] shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="border border-gray-300 p-6 rounded-lg max-w-sm w-full md:w-[300px] shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <div className="relative w-full h-[150px] mb-4">
               <Image

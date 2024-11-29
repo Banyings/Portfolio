@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 py-24 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto space-y-12">
+      <div className="max-w-4xl mx-auto space-y-12">
         {/* Hero Section with Image */}
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="relative w-48 h-48  overflow-hidden flex-shrink-0">
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* Subscribe Section */}
-        <div className="bg-white rounded-lg shadow-lg p-8 border border-gray-200">
+        <div className="bg-white rounded-lg shadow-lg p-8 border border-gray-300">
           <div className="flex items-center gap-4 mb-6">
             <p className="text-xl font-semibold text-gray-800">
               Stay Updated when I push new codes

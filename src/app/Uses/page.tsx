@@ -98,7 +98,7 @@ const Uses = () => {
 
               <div className="grid md:grid-cols-2 gap-6 ">
                 {section.items.map((item, itemIndex) => (
-                  <div key={itemIndex} className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                  <div key={itemIndex} className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-300">
                     <div className="p-6">
                       <h3 className="text-xl font-semibold mb-4">{item.name}</h3>
                       <p className="text-gray-600">{item.description}</p>
