@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
@@ -8,6 +8,12 @@ import { Menu, X } from "lucide-react";
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const pathname = usePathname(); // Get the current path
+
+    // Add an effect that runs when pathname changes
+    useEffect(() => {
+        // Close the menu whenever the path changes
+        setIsOpen(false);
+    }, [pathname]);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -20,11 +26,10 @@ export default function Navbar() {
             {/* Desktop Menu Container */}
             <div className="h-16 max-w-4xl mx-auto px-4 flex items-center justify-between">
                 {/* Brand Name */}
-                <Link href="/">
-                    <div className="text-xl font-bold text-blue-600 cursor-pointer">
-                        HpBanyingela
-                    </div>
-                </Link>
+                <div className="text-xl font-bold text-blue-600 cursor-pointer">
+                    HpBanyingela
+                </div>
+                
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center h-full gap-6 px-0">
