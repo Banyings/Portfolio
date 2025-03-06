@@ -30,63 +30,42 @@ export default function Navbar() {
                     HpBanyingela
                 </div>
                 
-
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center h-full gap-6 px-0">
-                    <Link href="/" className="relative group">
+                    <Link href="/" className="relative">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             Home
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
-                    <Link href="/About" className="relative group">
+                    <Link href="/About" className="relative">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/About') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/About') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             About
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/About') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
-                    <Link href="/Projects" className="relative group">
+                    <Link href="/Projects" className="relative">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/Projects') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/Projects') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             Projects
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/Projects') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
-                    <Link href="/Uses" className="relative group">
+                    <Link href="/Uses" className="relative">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/Uses') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/Uses') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             Uses
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/Uses') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
                 </ul>
@@ -109,60 +88,40 @@ export default function Navbar() {
                 }`}
             >
                 <ul className="px-4 py-2">
-                    <Link href="/" className="block relative group py-2">
+                    <Link href="/" className="block relative py-2">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             Home
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
-                    <Link href="/About" className="block relative group py-2">
+                    <Link href="/About" className="block relative py-2">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/About') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/About') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             About
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/About') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
-                    <Link href="/Projects" className="block relative group py-2">
+                    <Link href="/Projects" className="block relative py-2">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/Projects') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/Projects') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             Projects
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/Projects') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
-                    <Link href="/Uses" className="block relative group py-2">
+                    <Link href="/Uses" className="block relative py-2">
                         <li
-                            className={`text-gray-700 font-medium cursor-pointer transition-colors ${
-                                isActive('/Uses') ? 'text-blue-500' : ''
+                            className={`px-3 py-1 rounded-md font-medium cursor-pointer transition-colors ${
+                                isActive('/Uses') ? 'bg-blue-500 text-white' : 'text-gray-700 hover:bg-blue-100'
                             }`}
                         >
                             Uses
-                            <span
-                                className={`absolute bottom-0 left-0 ${
-                                    isActive('/Uses') ? 'w-full' : 'w-0'
-                                } h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full`}
-                            ></span>
                         </li>
                     </Link>
                 </ul>
