@@ -1,4 +1,3 @@
-// app/Projects/page.jsx
 'use client';
 
 import React from 'react';
@@ -9,27 +8,34 @@ export default function ProjectsPage() {
     {
       name: 'BanyingsBarber',
       description: 'A barber booking app with an interactive user interface and real-time booking features.',
-      image: './nextjs.png', // Make sure this path is relative to the public directory
+      image: '/nextjs.png', 
       link: 'https://banyings.github.io/BanyingsBarber/',
     },
     {
       name: 'My Porfolio',
       description: 'A frontend development project focused on building a responsive Navbar and page navigation.',
-      image: './nextjs.png', // Make sure this path is relative to the public directory
+      image: '/nextjs.png', // Make sure this path is relative to the public directory
       link: 'https://banyings.github.io/Portfolio/',
     },
     {
       name: 'RandomSelector',
       description: 'A frontend development project focused on helping people make an automatic/random selection.',
-      image: './nextjs.png', // Make sure this path is relative to the public directory
+      image: '/nextjs.png', // Make sure this path is relative to the public directory
       link: 'https://banyings.github.io/Randomselector/',
     },
+    {
+      name: 'Utah French Choir',
+      description: 'Building a web App for the Utah French Choir.',
+      image: '/nextjs.png', // Make sure this path is relative to the public directory
+      link: 'https://utahfrenchchoir.github.io/choir/',
+    },
+
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className=" bg-gray-50 mt-0 mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8 text-center ">Things I have made trying to put my dent in the universe.</h1>
-      <p className="text-base mb-8">
+      <p className="text-base mb-8 ml-4 mr-4 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20">
                 Here are some of the projects I have worked on and am still working on. I try to come up with new ideas to improve every day. I am eager to learn more from others and move forward. I am in love with software engineering, and I believe that the future is brighter with technology. Please visit my projects and give me some constructive feedback so I can improve, since there is no perfection in humans.
                 </p>
       <div className="flex flex-wrap gap-6 justify-center items-center">
