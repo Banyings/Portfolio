@@ -13,7 +13,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8 backdrop-blur-sm bg-white/30 p-6 rounded-xl shadow-lg">
           <div className="profile-image-container relative w-48 h-48 overflow-hidden flex-shrink-0 rounded-full border-4 border-white shadow-xl">
             <Image
-              src="/Hyppolite.png"
+              src="./Hyppolite.png"
               alt="Image of Hyppolite"
               fill
               className="object-cover"
@@ -43,7 +43,7 @@ export default function Home() {
             </p>
             <div className="relative w-12 h-12 pulse-animation">
               <Image
-                src="/email.png"
+                src="./email.png"
                 alt="gmail-symbole"
                 width={48}
                 height={48}
