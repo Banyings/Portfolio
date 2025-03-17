@@ -25,8 +25,14 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8 ">
-      <div className="bg-white border border-gray-300 rounded-lg shadow-lg max-w-md w-full p-6">
+    <div className="relative min-h-screen flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8 bg-cover bg-center"
+         style={{ backgroundImage: "url('/Hyppolite.png')" }}>
+      
+      {/* Dark Overlay for better contrast */}
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+      {/* Contact Form */}
+      <div className="relative z-10 bg-white border border-gray-300 rounded-lg shadow-lg max-w-md w-full p-6">
         <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-gray-800">
           Contact Me
         </h2>
