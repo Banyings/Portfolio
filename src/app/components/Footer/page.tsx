@@ -53,7 +53,7 @@ const Footer = () => {
                         </Link>
 
                         <Link
-                            href="./components/Contact"
+                            href="/components/Contact"
                             className="text-black dark:text-black dark:hover:text-gray transition-colors duration-200 flex items-center gap-2"
                         >
                             <Mail className="w-5 h-5" />
