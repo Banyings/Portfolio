@@ -3,15 +3,16 @@ import Image from "next/image";
 
 export default function About() {
   const skills = [
-    { name: 'HTML', image: '../html.png', percentage: '95%' },
-    { name: 'CSS', image: '../css.png', percentage: '90%' },
-    { name: 'JavaScript', image: '../JavaScript.png', percentage: '90%' },
-    { name: 'Java', image: '../java.png', percentage: '90%' },
-    { name: 'Python', image: '../python.png', percentage: '90%' },
-    { name: 'React', image: '../reactjs.png', percentage: '90%' },
-    { name: 'Next.js', image: '../nextjs.png', percentage: '90%' },
-    { name: 'Quarkus', image: '../quarkus.png', percentage: '90%' },
-    { name: 'SpringBoot', image: '../springboot.png', percentage: '85%' },
+    { name: 'HTML', image: '/html.png', percentage: '95%' },
+    { name: 'CSS', image: '/css.png', percentage: '90%' },
+    { name: 'JavaScript', image: '/JavaScript.png', percentage: '90%' },
+    { name: 'Java', image: '/java.png', percentage: '90%' },
+    { name: 'Python', image: '/python.png', percentage: '90%' },
+    { name: 'React', image: '/reactjs.png', percentage: '90%' },
+    { name: 'Next.js', image: '/nextjs.png', percentage: '90%' },
+    { name: 'Quarkus', image: '/quarkus.png', percentage: '90%' },
+    { name: 'SpringBoot', image: '/springboot.png', percentage: '85%' },
+    { name: 'Tailwind CSS', image: '/tailwind.png', percentage: '90%' },
   ];
 
   return (
@@ -96,7 +97,7 @@ export default function About() {
           <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Education</h2>
           <div className="flex flex-col md:flex-row items-center gap-4 sm:gap-8">
             <Image
-              src="../ensign.png"
+              src="/ensign.png"
               alt="Ensign College"
               width={80}
               height={80}
@@ -155,6 +156,11 @@ export default function About() {
             </a>
           </div>
         </div>
+
+      </div>
+    </div>
+  );
+}
 
       </div>
     </div>
