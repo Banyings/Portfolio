@@ -8,25 +8,25 @@ export default function ProjectsPage() {
     {
       name: 'BanyingsBarber',
       description: 'A barber booking app with an interactive user interface and real-time booking features.',
-      image: '/nextjs.png', 
+      image: '../nextjs.png', 
       link: 'https://banyings.github.io/BanyingsBarber/',
     },
     {
       name: 'My Porfolio',
       description: 'A frontend development project focused on building a responsive Navbar and page navigation.',
-      image: '/nextjs.png', // Make sure this path is relative to the public directory
+      image: '../nextjs.png', 
       link: 'https://banyings.github.io/Portfolio/',
     },
     {
       name: 'RandomSelector',
       description: 'A frontend development project focused on helping people make an automatic/random selection.',
-      image: '/nextjs.png', // Make sure this path is relative to the public directory
+      image: '../nextjs.png',
       link: 'https://banyings.github.io/Randomselector/',
     },
     {
       name: 'Utah French Choir',
-      description: 'Building a web App for the Utah French Choir.',
-      image: '/nextjs.png', // Make sure this path is relative to the public directory
+      description: 'Building a web App for the Utah French Choir commingup soon. The web App is fullstack',
+      image: '../nextjs.png', 
       link: 'https://utahfrenchchoir.github.io/choir/',
     },
 
