@@ -12,6 +12,7 @@ export default function About() {
     { name: 'Next.js', image: '/nextjs.png', percentage: '90%' },
     { name: 'Quarkus', image: '/quarkus.png', percentage: '90%' },
     { name: 'SpringBoot', image: '/springboot.png', percentage: '85%' },
+    { name: 'Tailwind CSS', image: '/tailwind.png', percentage: '90%' },
   ];
 
   return (
@@ -51,6 +52,43 @@ export default function About() {
                 <span className="text-sm text-gray-500">{skill.percentage}</span>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Internship Experience Card */}
+        <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 md:p-8 border border-gray-300">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Professional Experience</h2>
+          <div className="flex flex-col md:flex-row items-start gap-4 sm:gap-8">
+            <div className="flex-shrink-0">
+              <Image
+                src="/jumuiya-logo.png" 
+                alt="International Jumuiya"
+                width={80}
+                height={80}
+                className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
+                unoptimized
+              />
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Frontend Development Intern</h3>
+              <p className="text-sm text-gray-500 mb-2">International Jumuiya Website Development | January - March 2025</p>
+              <p className="text-gray-600 mb-3">
+                Contributed to the development of a modern, responsive website for International Jumuiya, focusing on 
+                creating an intuitive user interface that effectively communicates the organization's mission and values.
+              </p>
+              <div className="space-y-2">
+                <p className="text-sm text-gray-700"><span className="font-medium">Key Achievements:</span></p>
+                <ul className="list-disc pl-5 text-sm text-gray-600 space-y-1">
+                  <li>Developed responsive home page and about page using React and Tailwind CSS</li>
+                  <li>Created modular, reusable components following best practices</li>
+                  <li>Implemented responsive design principles ensuring cross-browser compatibility</li>
+                  <li>Optimized performance for various device sizes while maintaining design consistency</li>
+                </ul>
+                <p className="text-sm text-gray-700 mt-3">
+                  <span className="font-medium">Technologies used:</span> React.js, Next.js, Tailwind CSS, Git
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
