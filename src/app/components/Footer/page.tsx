@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
 
 const Footer = () => {
-    const currentYear = new Date().getFullYear();
-
     return (
         <footer className="bg-white  text-black font-sans">
             <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
@@ -62,7 +60,7 @@ const Footer = () => {
                     </nav>
 
                     <p className="text-black dark:text-black text-sm font-normal">
-                        &copy; {currentYear} Hyppolite Banyingela. All rights reserved.
+                        &copy; Hyppolite Banyingela. All rights reserved.
                     </p>
                 </div>
             </div>

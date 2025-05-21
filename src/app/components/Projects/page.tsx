@@ -9,7 +9,7 @@ export default function ProjectsPage() {
       name: 'BanyingsBarber',
       description: 'A barber booking app with an interactive user interface and real-time booking features.',
       image: '../nextjs.png', 
-      link: 'https://banyings.github.io/BanyingsBarber/',
+      link: 'https://banyings-barber-pd6jshcbw-hyppolite-banyingelas-projects.vercel.app/',
     },
     {
       name: 'My Porfolio',
@@ -27,7 +27,7 @@ export default function ProjectsPage() {
       name: 'Utah French Choir',
       description: 'Building a web App for the Utah French Choir commingup soon. The web App is fullstack',
       image: '../nextjs.png', 
-      link: 'https://utahfrenchchoir.github.io/choir/',
+      link: 'https://utahfrenchchoir-2jtluvm8h-hyppolite-banyingelas-projects.vercel.app/',
     },
 
   ];

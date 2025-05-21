@@ -55,6 +55,16 @@ export default function Contact() {
             className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
             required
           />
+
+          <input
+            type="phone"
+            name="phone"
+            placeholder="Your Phone number"
+            value={formData.email}
+            onChange={handleChange}
+            className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            required
+          />
           <textarea
             name="message"
             placeholder="Your Message"
