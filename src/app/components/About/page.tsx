@@ -74,7 +74,7 @@ export default function About() {
               <p className="text-sm text-gray-500 mb-2">International Jumuiya Website Development | January - March 2025</p>
               <p className="text-gray-600 mb-3">
                 Contributed to the development of a modern, responsive website for International Jumuiya, focusing on 
-                creating an intuitive user interface that effectively communicates the organization's mission and values.
+                creating an intuitive user interface that effectively communicates the organization&apos;s mission and values.
               </p>
               <div className="space-y-2">
                 <p className="text-sm text-gray-700"><span className="font-medium">Key Achievements:</span></p>
