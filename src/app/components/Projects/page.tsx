@@ -15,7 +15,7 @@ export default function ProjectsPage() {
       name: 'My Porfolio',
       description: 'A frontend development project focused on building a responsive Navbar and page navigation.',
       image: '../nextjs.png', 
-      link: 'https://banyings.github.io/Portfolio/',
+      link: 'https://portfolio-he15h75xy-hyppolite-banyingelas-projects.vercel.app/',
     },
     {
       name: 'RandomSelector',
