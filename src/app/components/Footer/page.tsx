@@ -60,7 +60,7 @@ const Footer = () => {
                     </nav>
 
                     <p className="text-black dark:text-black text-sm font-normal">
-                        &copy; Hyppolite Banyingela. All rights reserved.
+                        &copy;2025 Hyppolite Banyingela. All rights reserved.
                     </p>
                 </div>
             </div>

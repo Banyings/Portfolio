@@ -27,7 +27,7 @@ export default function ProjectsPage() {
       name: 'Utah French Choir',
       description: 'Building a web App for the Utah French Choir commingup soon. The web App is fullstack',
       image: '../nextjs.png', 
-      link: 'https://utahfrenchchoir-2jtluvm8h-hyppolite-banyingelas-projects.vercel.app/',
+      link: 'https://www.utahfrchoir-org.com/',
     },
 
   ];
