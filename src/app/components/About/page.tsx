@@ -27,7 +27,7 @@ export default function About() {
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
             I graduated for an Associate degree of Science and a Certificate in Software Engineering at Ensign College, with a focus on Web Development. 
             Throughout my studies, I&apos;ve gained solid foundational knowledge in web development, algorithms, and databases, applying these concepts in various projects, 
-            including BanyingsBarber and My Portfolio.
+            including BanyingsBarber, Utah French Choir and My Portfolio.
           </p>
         </div>
 
